@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="img/download.png" type="image/png">
+        <title>Quiz</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="vendors/linericon/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="vendors/animate-css/animate.css">
+        <link rel="stylesheet" href="vendors/popup/magnific-popup.css">
+        <!-- main css -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+		<link rel="stylesheet" href="quizjc/style.css">
+		
+    </head>
+    <body data-spy="scroll" data-target="#mainNav" data-offset="70">
+	
+        
+        <!--================Header Menu Area =================-->
+		<a class="navbar-brand logo_h" href="quiz.html"><img src="img/picture1.png" alt="">Josefina Herrera Cerilles State College - <i>Mati, San Miguel, Zamboanga Del Sur</i></a>
+        
+        <!--================Header Menu Area =================-->
+        
+        <!--================Home Banner Area =================-->
+        <section class="home_banner_area" id="home">
+            
+		<a class="banner_btn" href="home.html">Exit Quiz</a>	
+  
+	<table style="width:583px">
+	<h2 class="quizHeader">Take a Quiz!</h2>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">1. Is the practice of keeping and grazing animals on natural pastures.</p>
+
+	    	<ul>
+	    	<input class="answer" type="radio" name="q1" value="1">
+	        <label id="correctString1">Nomadic Herding</label>
+	    	<br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Shifting Cultivation</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Agriculture</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Agriculture Activities</label>
+    		</ul>
+	  	</div>
+	  </td>
+	  <td>
+	  	<div>
+	  		<p class="question">2.  Involves growing crops and keeping animals for the sole purpose of feeding the farmer and his family.</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>Aquaculture</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="1">
+	        <label id="correctString2">Subsistence farming</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>Integrated farming</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>Irrigation</label>
+	    	</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">3. Also known as tree crop farming, industrialized agriculture or plantation farming, commercial plantations cover large land areas.</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>Pastoral Farming</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="1">
+	        <label id="correctString3">Commercial Plantation</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>Nomadic Herding</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>Subsistence Farming</label>
+	    	</ul>
+		</div>
+	  </td>
+	  <td>
+	  	<div>
+	  		<p class="question">4. Focuses on rearing animals.</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>Aqua Farming</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="1">
+	        <label id="correctString4">Livestock Ranching</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>Irrigation</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>Animal Husbandry</label>
+    		</ul>
+			
+		<div>
+	  		<p class="question">5. Is the art and science of cultivating the soil, growing crops and raising livestock.</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q5" value="0">
+	        <label>Subsistence Farming</label>
+	        <br>
+	        <input class="answer" type="radio" name="q5" value="0">
+	        <label>Nomadic Herding</label>
+	        <br>
+	        <input class="answer" type="radio" name="q5" value="0">
+	        <label>Integrated farming</label>
+			<br>
+			<input class="answer" type="radio" name="q5" value="1">
+	        <label id="correctString5">Agricultural</label>
+	        
+	    	</ul>
+		</div>
+			<!--show only wrong answers on submit-->
+    <div class="quizAnswers" id="correctAnswer1"></div>
+	    <div class="quizAnswers" id="correctAnswer2"></div>
+    <div class="quizAnswers" id="correctAnswer3"></div>
+    <div class="quizAnswers" id="correctAnswer4"></div>
+	<div class="quizAnswers" id="correctAnswer5"></div>
+	
+	<!--show score upon submit-->
+    <div>
+    	<h2 class="quizScore" id="userScore"></h2>
+    </div>
+	</div>
+	  	</div>
+	  </td>
+	</tr>
+	
+	</table>
+<br/>
+  <div class="submitter">
+          <input class="quizSubmit" id="submitButton" onClick="submitQuiz()"
+          type="submit" value="Check" />
+    </div>
+  
+
+
+
+        </section>
+        <!--================End Home Banner Area =================-->
+        
+        <!--================Design Area =================-->
+        
+        <!--================Footer Area =================-->
+        <footer class="footer_area p_120">
+        	
+        		<div class="copy_right_text">
+        			<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This is developed  <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Joe F. Yama</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        		</div>
+        	</div>
+        </footer>
+        <!--================End Footer Area =================-->
+        
+        
+        
+        
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/stellar.js"></script>
+        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="vendors/isotope/isotope-min.js"></script>
+        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+        <script src="vendors/counter-up/jquery.counterup.js"></script>
+        <script src="js/mail-script.js"></script>
+        <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
+        <script src="js/theme.js"></script>
+		<script src="quizjc/javascript.js"></script>
+		
+    </body>
+</html>
